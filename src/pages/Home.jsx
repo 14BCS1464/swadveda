@@ -93,7 +93,7 @@ const Home = () => {
           gap: '30px',
           flexWrap: 'wrap',
           overflow: 'hidden',
-          zIndex: 1,
+          
        background: "transparent",
         backgroundImage: `linear-gradient(135deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9))`,
         backdropFilter: 'blur(1px)',
@@ -162,7 +162,7 @@ const Home = () => {
         </button>
       </div>
 
-      {/* WhatsApp Floating Button */}
+    
       <a
         href={`https://wa.me/${data?.contact?.phone?.replace(/\s/g, '')}`}
         className="whatsapp-button"
